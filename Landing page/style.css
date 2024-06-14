@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.name{
+    /* background-color: rgb(254, 205, 205); */
+    background-color: red;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+    /* color: rgb(255, 54, 54); */
+    color: #ffffff;
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: rgb(255, 231, 231);
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    padding: 7px 20px 7px 20px;
+}
+
+.nav2 a:hover{
+    color: rgb(255, 54, 54);
+    font-weight: 500;
+}
+
+.searchbar{
+    width: 30%;
+    display: flex;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.indian{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 100px;
+    padding-left: 7px;
+    border-top:  2px solid rgb(255, 54, 54);
+    border-left:  2px solid rgb(255, 54, 54);
+    border-bottom:  2px solid rgb(255, 54, 54);
+}
+
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top:  2px solid rgb(255, 54, 54);
+
+    border-bottom:  2px solid rgb(255, 54, 54);
+}
+
+.srch-icon{
+    background-color: rgb(255, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 1.5rem;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top:  2px solid rgb(255, 54, 54);
+    border-left:  2px solid rgb(255, 54, 54);
+    border-bottom:  2px solid rgb(255, 54, 54);
+}
+
+.cartall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+}
+
+.cartall i{
+    font-size: 2rem;
+}
+
+.cart{
+    font-size: 1.5rem;
+    padding-left: 5px;
+}
+
+
+.main_img{
+    background-image: url(main_img.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.aboutFF{
+    width: 98%;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    height: 50px;
+}
+
+
+h4{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foods{
+    width: 100%;
+    background-color: rgb(255, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2{
+    padding: 20px;
+    border-top: 2px solid rgb(255, 54, 54);
+    background-color: rgb(255, 231, 231);
+}
+
+
+.chicken-wings-img{
+    background-image: url(chiken_wings.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.chicken_wings{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ord_now{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.pizza-img{
+    background-image: url(pizza.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pizza{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.pasta-img{
+    background-image: url(red_sauce_pasts.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pasta{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kebabs-img{
+    background-image: url(kebabs.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.kebabs{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.hamburgers-img{
+    background-image: url(hamburgers.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hamburgers{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.chickensteak-img{
+    background-image: url(chicken_steak.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.chickensteak{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.thali-img{
+    background-image: url(thali.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.thali{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.breads-img{
+    background-image: url(breads.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.breads{
+    background-color: #ffffff;
+    width: 21%;
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.border:hover{
+    border: 1.5px solid rgb(255, 54, 54);
+}
+
+footer{
+    background-color: #222222;
+    height: 200px;
+    
+}
+
+.links{
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.ig{
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+
+.ig:hover{
+    color: #f34e6c;
+}
+
+.fb{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fb:hover{
+    color: #1877F2;
+}
+
+.in{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in:hover{
+    color: #0a66c2;
+}
+
+.yt{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.yt:hover{
+    color: #FF0000;
+}
+
+.gh{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.gh:hover{
+    color: #4078c0;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.docs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.docs a{
+    color: white;
+    text-decoration: none;
+}
+
+.pipe{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.d_hov:hover{
+    color: rgb(87, 149, 249);
+    text-decoration: underline;
+}
